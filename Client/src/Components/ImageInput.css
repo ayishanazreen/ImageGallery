@@ -1,0 +1,96 @@
+.image-input-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.image-header{
+   width:100%;
+   height: 200px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-header h1{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #000000;
+
+}
+
+.image-header p{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 37.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #ACACAC;
+}
+.image-input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-input-section button{
+    width:35px;
+    height:35px;
+    color: #EED8C0;
+    font-family: Roboto;
+   font-size: 30px;
+   font-weight: 300;
+   border-radius: 20px ;
+   border: none;
+   outline: none;
+}
+
+.image-input-section p{
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+color: #ACACAC;
+text-align: center;
+margin-top: 3px;
+
+}
+
+.line-div{
+    width:1500px;
+    height:7px;
+    background-color:  #EFD9C2;
+    border-radius: 4px;
+    margin-top: 27px;
+
+}
+
+.progress-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+.progress-bar{
+    width: 0;
+    height: 20px;
+    background-color: #EFD9C2;
+    border-radius: 10px;
+}
+.progress-container p{
+    margin-left: 5px;
+    font-size: 20px;
+}
