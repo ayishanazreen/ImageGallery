@@ -4,8 +4,6 @@ import axios from "axios";
 import ImageList from './ImageList/ImageList';
 const API_URL= "https://image-gallery-ten-psi.vercel.app/"
 
-
-
 const ImageInput = () => {
   const fileInputRef = useRef(null);
   const [image,setImage]=useState(null);
@@ -44,7 +42,7 @@ const ImageInput = () => {
       setIsUploading(false);
       if(response.data.file)
       {
-        const imageUrl = `http://localhost:4000/images/${response.data.file.filename}`
+        const imageUrl = `https://image-gallery-ten-psi.vercel.app/images/${response.data.file.filename}`
          setImages((prev)=>  [...prev, {imageUrl}]) 
          console.log("respone from backend", response.data)
          fetchImages(); 
