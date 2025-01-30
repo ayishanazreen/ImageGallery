@@ -14,7 +14,7 @@ const PORT=4000
 //middlewares
 app.use(cors());
 app.use(express.json())
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'client/dist')));
 app.use(logger);
 
 
@@ -28,6 +28,12 @@ app.post('/',auth, upload.single("upload_file"), (req,res)=>
       }
 
    });
+
+
+   app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client/dist', 'index.html'));
+  });
+
 
 app.get("/",auth, (req, res) => {
   const imageDir=path.join(__dirname, 'public/images')
