@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './ImageInput.css';
 import axios from "axios";
 import ImageList from './ImageList/ImageList';
-const API_URL="http://localhost:4000/"
+const API_URL= "https://image-gallery-ten-psi.vercel.app/"
 
 
 
