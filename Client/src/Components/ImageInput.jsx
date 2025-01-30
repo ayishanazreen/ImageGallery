@@ -65,7 +65,7 @@ const ImageInput = () => {
     {
         const response=await axios.get(API_URL);
         const imageUrls = response.data.map((fileName) => ({
-          imageUrl: `http://localhost:4000/images/${fileName}`,
+          imageUrl: `https://image-gallery-ten-psi.vercel.app/images/${fileName}`,
         }));
         setImages(imageUrls)
         
