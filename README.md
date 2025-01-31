@@ -1,8 +1,9 @@
-[Image Gallery Application-Readme.docx](https://github.com/user-attachments/files/18555458/Image.Gallery.Application-Readme.docx)
 
-Deployed Url: https://imagegallery-client.onrender.com
+
+**Deployed Url** : https://imagegallery-client.onrender.com
 
 <h1> 🖼️ Image Gallery Project</h1>
+ A modern image gallery web application built with React and Vite, designed to provide seamless image uploading and display functionality and deployed using Render.
 
  <h2>✨ Features</h2>
 
@@ -12,7 +13,7 @@ Deployed Url: https://imagegallery-client.onrender.com
 
   🔒 Image Validation: Only supports image files.
 
-  🎨 UI: Styled with Custom Css.
+  🎨 UI: Styled with Custom CSS.
 
 
  <h2>Technologies Used: </h2>
@@ -28,6 +29,33 @@ Deployed Url: https://imagegallery-client.onrender.com
    •	Multer
 
  <h2>Screenshots: </h2>
+
+ <h3>Home Page</h3>
+
+ ![screenshots](https://github.com/ayishanazreen/ImageGallery/blob/master/screenshots/mainview.png?raw=true)
+
+ <h3>Triggering file explorer and Adding Image.</h3>
+
+  ![screenshots](https://github.com/ayishanazreen/ImageGallery/blob/master/screenshots/uploadingimage.png?raw=true)
+
+  <h3>Image added</h3>
+  
+  ![screenshots](https://github.com/ayishanazreen/ImageGallery/blob/master/screenshots/imageview.png?raw=true)
+
+  
+  <h3>Modal View of Images</h3>
+  
+  ![screenshots](https://github.com/ayishanazreen/ImageGallery/blob/master/screenshots/modalview.png?raw=true)
+
+
+  <h3>Live progress view of image uploading</h3>
+
+  ![screenshots](https://github.com/ayishanazreen/ImageGallery/blob/master/screenshots/image-loading-progress.png?raw=true)
+
+  
+  
+
+ 
    
 
 
