@@ -16,7 +16,11 @@ app.use(cors());
 app.use(express.json())
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(logger);
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({
+  origin: 'https://imagegallery-client.onrender.com',
+  methods: ['GET', 'POST'], 
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
 
 app.post('/',auth, upload.single("upload_file"), (req,res)=>

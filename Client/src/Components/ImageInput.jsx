@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './ImageInput.css';
 import axios from "axios";
 import ImageList from './ImageList/ImageList';
-const API_URL= "https://image-gallery-ten-psi.vercel.app/"
+const API_URL= "https://imagegallery-3mfy.onrender.com"
 
 const ImageInput = () => {
   const fileInputRef = useRef(null);
@@ -42,7 +42,7 @@ const ImageInput = () => {
       setIsUploading(false);
       if(response.data.file)
       {
-        const imageUrl = `https://image-gallery-ten-psi.vercel.app/images/${response.data.file.filename}`
+        const imageUrl = `https://imagegallery-3mfy.onrender.com/images/${response.data.file.filename}`
          setImages((prev)=>  [...prev, {imageUrl}]) 
          console.log("respone from backend", response.data)
          fetchImages(); 
@@ -65,7 +65,7 @@ const ImageInput = () => {
     {
         const response=await axios.get(API_URL);
         const imageUrls = response.data.map((fileName) => ({
-          imageUrl: `https://image-gallery-ten-psi.vercel.app/images/${fileName}`,
+          imageUrl: `https://imagegallery-3mfy.onrender.com/images/${fileName}`,
         }));
         setImages(imageUrls)
         
