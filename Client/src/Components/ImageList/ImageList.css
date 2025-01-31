@@ -10,6 +10,8 @@
     margin-top: 33px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-item{
@@ -63,7 +65,7 @@
   
   .modal-image {
     width: 500px;
-    height: 500px;
+    max-height: 400px;
     object-fit: contain;
   }
   

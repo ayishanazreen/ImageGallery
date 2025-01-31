@@ -19,7 +19,8 @@ const ImageList = ({images}) => {
       <div className='image-list-section'>
         {images.length > 0 ? (
           images.map((image, index) => (
-            <button onClick={()=>handleModal(image.imageUrl)} className='image-btn'><div key={index} className='image-item'>
+            <button onClick={()=>handleModal(image.imageUrl)} className='image-btn'>
+              <div key={index} className='image-item'>
               <img
                 src={image.imageUrl}  // Image URL 
                 alt={`image-${index}`}
