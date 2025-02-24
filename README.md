@@ -1,5 +1,4 @@
 
-
 **Deployed Url** : https://imagegallery-client.onrender.com
 
 <h1> 🖼️ Image Gallery Project</h1>
